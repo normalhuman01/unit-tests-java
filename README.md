@@ -1,85 +1,85 @@
-# Testes Unitários - Digital Innovation One
+# Pruebas unitarias - Digital Innovation One
 
-##### Objetivos da Aula:
-1. Apresentar a pirâmide de testes de software e detalhar cada nível.
-2. Destacar a importância dos testes unitários durante o desenvolvimento.
-3. Apresentar frameworks referência para testes: JUnit, Mockito e Hamcrest.
-4. Codificar, compartilhar e aprender todos juntos.
+##### Objetivos de la lección:
+1. Presentar la pirámide de pruebas de software y detallar cada nivel.
+2. Destacar la importancia de las pruebas unitarias durante el desarrollo.
+3. Presentar los frameworks de referencia para pruebas: JUnit, Mockito y Hamcrest.
+4. Codificar, compartir y aprender juntos.
 
-##### O que vamos utilzar:
+##### Qué vamos a utilizar:
 - Java 14
 - Maven 3.6.2
-- Spring Boot (última versão estável lançada)
-- GIT/GITHUB para versionamento de código
-- Frameworks JUnit, Mockito e Hamcrest
+- Spring Boot (última versión estable publicada)
+- GIT/GITHUB para el versionado de código
+- Frameworks JUnit, Mockito y Hamcrest
 
 ##### @Data 
-- Gera os getters e setters automaticamente.
+- Genera getters y setters automáticamente.
 
 ##### DAO
-- Data Access Object
-- Comunicação com o banco de dados.
+- Objeto de Acceso a Datos
+- Comunicación con la base de datos.
 
-##### Optional 
-- Introduzido no Java 8.
+##### Opcional 
+- Introducido en Java 8.
 
-##### @Service 
-- De dentro para fora.
+##### @Servicio 
+- De dentro hacia fuera.
 
 ##### @RestController
-- Uma controller passandos os dados sem parte gráfica.
+- Un controlador que pasa datos sin parte gráfica.
 
-##### Typical HTTP Verbs:
-- GET -> Read from Database.
-- PUT -> Update/Replace row in Database.
-- PATCH -> Update/Modify row in Database.
-- POST -> Create a new recorde in the database.
-- DELETE -> Delete from the database.
+##### Verbos HTTP típicos:
+- GET -> Leer de la Base de Datos.
+- PUT -> Actualizar/Reemplazar fila en Base de Datos.
+- PATCH -> Actualizar/Modificar fila en Base de Datos.
+- POST -> Crear un nuevo registro en la Base de Datos.
+- DELETE -> Borrar de la base de datos.
 
 ##### API RESTful - Richardson
 
 ###### Glory Of Rest
-- Level 3 - Hypermedia Controls
-- Level 2 - HTTP Verbs
-- Level 1 - Resources
-- Level 0 - The Swamp Of Pox
+- Nivel 3 - Controles hipermedia
+- Nivel 2 - Verbos HTTP
+- Nivel 1 - Recursos
+- Nivel 0 - El pantano de la viruela
 
-##### Pirâmide de Testes
-- UI Tests -> appium
-- Integrations Tests -> UI Automator, espresso e AndroidJUnit4
-- Unit Tests -> Mock, JUnit e mockito
+##### Pirámide de pruebas
+- Pruebas UI -> appium
+- Pruebas de integración -> UI Automator, espresso y AndroidJUnit4
+- Pruebas Unitarias -> Mock, JUnit y mockito
 
-##### Vantagens
-- Sistema testado de ponta a ponta.
-- Evolução segura: sem quebrar funcionalidades.
-- Teste também é forma de documentação.
-- Integração contínua (CI)
-- Deploy contínuo (CD)
+##### Ventajas
+- Sistema probado de extremo a extremo.
+- Evolución segura: sin romper funcionalidades.
+- Las pruebas son también una forma de documentación.
+- Integración continua (IC)
+- Despliegue continuo (DC)
 
-##### Nível 1: testes unitários
-- Maior número de testes, menor custo e tempo
-- Testes feito pelo próprio desenvolvedor
-- Rápidos, com base em linhas de código
-- Cobertura de vários cenários para as linhas
-- Integração com outros códigos: através de mocks
+##### Nivel 1: pruebas unitarias
+- Mayor número de pruebas, menor coste y tiempo
+- Pruebas realizadas por el desarrollador
+- Rápidas, basadas en líneas de código
+- Cobertura de varios escenarios para las líneas
+- Integración con otro código: mediante mocks
 
-##### Principais frameworks
+##### Principales frameworks
 - JUnit
 - Mockito
 - Hamcrest
-- Spring Boot Starter Test: acesso a todos os frameworks!
+- Spring Boot Starter Test: ¡acceso a todos los frameworks!
 
-##### Builder 
-- Auxilia nos testes porque traz tudo preenchido.
+##### Constructor 
+- Ayuda con las pruebas porque reúne todo.
 
 ##### Maven
-- Adiciona qualidade ao teste e deixa mais poderoso.
+- Añade calidad a las pruebas y las hace más potentes.
 
-##### Inglês
-- Maioria dos testes da empresas e comunidades são em inglês.
+##### Inglés
+- La mayoría de las pruebas de la empresa y de la comunidad están en inglés.
 
 ##### Terminal IDE
-- git diff -> Lista todos os testes realizados.
+- git diff -> Lista todas las pruebas realizadas.
 
 ##### TDD 
-- Testar e simplificar o código.
+- Prueba y simplifica el código.
